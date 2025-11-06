@@ -2,7 +2,7 @@ package com.ninza.crm.campaigns;
 
 import org.testng.annotations.Test;
 
-public class Demo1Test {
+public class DemoTest1 {
 	
 	@Test
 	public void hiMavenTest(){
