@@ -2,10 +2,9 @@ package com.ninza.crm.campaigns;
 
 import org.testng.annotations.Test;
 
-public class Demo3 {
+public class Demo2Test {
 	@Test
-	public void hiJenkins() {
-		System.out.println("Hi Jenkins");
+	public void hiGitHub() {
+		System.out.println("Hi Git");
 	}
-
 }
