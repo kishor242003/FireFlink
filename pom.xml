@@ -4,7 +4,7 @@
   <artifactId>Practice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-<dependencies>
+  <dependencies>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -41,10 +41,20 @@
     <version>7.10.2</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
 
 
-</dependencies>
-<profiles>
+
+
+  </dependencies>
+  
+  
+  <profiles>
   <profile>
   <id>BE</id>
   <build>
@@ -55,7 +65,7 @@
         <version>3.5.4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>Demo.xml</suiteXmlFile>
+            <suiteXmlFile>BatchExecution.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
